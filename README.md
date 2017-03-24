@@ -1,12 +1,13 @@
-#taken from:
+##taken from:
 [spacemacs evilify](https://github.com/syl20bnr/spacemacs/blob/b7e51d70aa3fb81df2da6dc16d9652a002ba5e6b/layers/%2Bdistributions/spacemacs-base/local/evil-evilified-state/evil-evilified-state.el)
-#to install
+
+##to install
 ```
      (use-package evil-evilified-state
-       :load-path "~/Projects/elisp/evil-evilified-state/")
+       :load-path "path/where/you/cloned/evil-evilified-state")
 ```
 
-#example
+##example
 ```
      (use-package dired
        :defer t
